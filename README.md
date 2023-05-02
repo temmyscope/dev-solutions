@@ -9,8 +9,6 @@ The intent of this repo is to provide answers and or solutions to commonly exper
 ## Introduction
 Installing `pycurl` on MacOS with Python 3.6+ and newer proved to be tricky, especially since a lot of the available resources seem to be outdated ([1], [2], [3]).
 
-This gist was last updated at 2020-12-31.
-
 
 ## Steps:
 1. Remove previously installed pycurl version and Homebrew versions of `curl`:
