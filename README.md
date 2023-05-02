@@ -13,8 +13,9 @@ This gist was last updated at 2020-12-31.
 
 
 ## Steps:
-1. Remove previously installed Homebrew versions of `curl`:
+1. Remove previously installed pycurl version and Homebrew versions of `curl`:
 ```bash
+    pip uninstall pycurl
     brew uninstall curl
     brew uninstall openssl
     brew uninstall curl-openssl
