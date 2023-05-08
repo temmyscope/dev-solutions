@@ -71,6 +71,10 @@ And our `pycurl` should use the second one, both at linker level and at compile 
 [2]: https://github.com/transloadit/python-sdk/issues/4
 [3]: https://www.itnota.com/curl-http2-macos/
 
+3. If it still does not work, then check the version of `curl` installed on your Mac using:
+- `which curl`: If the version shown is different from the homebrew-installed version, 
+then run the following: `sudo rm /usr/bin/curl`
+_ Then restart the whole installation process after exposing `curl` to the environment PATH
 
 
 # Problem 2: Next Problem
